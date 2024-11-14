@@ -1,0 +1,252 @@
+/*MANTLOBO MATSUTSU 901017400*/
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #e66465, #9198e5);
+  margin: 55;
+  padding: 80px;
+  color: #3b2b2b;
+}
+h1{
+  text-align: center;
+}
+
+h2 {
+  color: #fff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+
+input[type="text"],
+input[type="number"] {
+  width: 50%;
+  padding: 6px;
+  margin: 6px 0;
+  border: 1px solid #1cef08;
+  border-radius: 10px;
+}
+
+/* Button Styles */
+button {
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+  background-color: #4cae4c;
+  transform: scale(1.05);
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #fff; 
+  border-radius: 8px;
+  overflow: hidden; 
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #7d5959;
+}
+
+
+@media (max-width: 600px) {
+  input[type="text"],
+  input[type="number"] {
+    width: 50%;
+  }
+
+  button {
+    width: 35%;
+    margin-top: 5px;
+  }
+}
+
+
+.login-container {
+  width: 300px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #8170a0;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.9); 
+}
+
+h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+/*styling the sign up form*/
+
+input {
+  width: 35%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-button,
+.toggle-button {
+  width: 35%;
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.toggle-button {
+  background-color: #0588f3;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+.signup-container {
+  max-width: 400px;
+  margin: 0 auto; 
+  padding: 20px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  background-color: #f9f9f9; 
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+}
+
+h2 {
+  text-align: center; 
+  color: #333; 
+}
+
+p {
+  text-align: center; 
+  color: #555; 
+}
+
+.form-group {
+  margin-bottom: 15px; 
+}
+
+label {
+  display: block; 
+  margin-bottom: 5px; 
+  font-weight: bold; 
+  color: #333; 
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  font-size: 16px; 
+  margin: 5px 0;
+
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-color: #66afe9; 
+  outline: none; 
+  box-shadow: 0 0 5px }
+  .error-message {
+    color: rgb(249, 5, 5); 
+    margin-top: 10px; 
+  }
+
+  img {
+    margin-left: 60px;
+    height: 200px;
+    width: 200px;
+  }
+  /* Home.css */
+
+.home-container {
+  text-align: center; 
+  margin: 50px auto; 
+}
+
+.welcome-image {
+  max-width: 100%; 
+  height: auto; 
+  display: block; 
+  margin: 20px auto; 
+}
+ 
+
+nav {
+  display: flex;             
+  justify-content: center;    
+  gap: 10px;                 
+  margin: 20px 0;          
+}
+
+nav button {
+  padding: 10px 15px;       
+  border: none;             
+  background-color: #007BFF; 
+  color: white;              
+  cursor: pointer;          
+  border-radius: 5px;       
+  transition: background-color 0.3s; 
+}
+
+nav button:hover {
+  background-color: #0056b3; }
+
+
+  .image-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider-image {
+    border: 2px solid #f90707;
+    border-radius: 8px;
+}
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
